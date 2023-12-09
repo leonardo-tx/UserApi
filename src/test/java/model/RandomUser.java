@@ -9,7 +9,7 @@ import java.util.Random;
 @Getter
 @JsonIgnoreProperties(ignoreUnknown = true)
 public final class RandomUser {
-    private final long id = new Random().nextInt();
+    private final int id = new Random().nextInt();
     private String nome;
     private String senha;
 
